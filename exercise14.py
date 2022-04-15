@@ -25,6 +25,19 @@ def set_generation():
     if len(set) > 0:
         print(set)
     else: print('No Overlaps')
+    
+def list_to_set():
+    for i in list1:
+        if i in list2:
+            lst.append(i)
+        else:
+            continue
+    for i in lst:
+        set.add(i)
+    if len(set) > 0:
+        print(set)
+    else: print('No Overlaps')
 
-list_overlap()
-set_generation()
+# list_overlap()
+# set_generation()
+list_to_set()
